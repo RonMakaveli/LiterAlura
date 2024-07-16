@@ -33,7 +33,7 @@ Utilizamos a API Gutendex para buscar dados de livros e persistimos essas inform
 ### Passos para Executar
 
 1. **Clone o repositório do GitHub para sua máquina local:**
-   - Utilize o comando `git clone <URL_DO_REPOSITÓRIO>`.
+   - Utilize o comando `git clone https://github.com/RonMakaveli/LiterAlura`.
 
 2. **Navegue até o diretório do projeto:**
    - Utilize o comando `cd LiterAlura`.
