@@ -28,32 +28,6 @@ Utilizamos a API Gutendex para buscar dados de livros e persistimos essas inform
 - Maven instalado.
 - PostgreSQL instalado e configurado.
 
-### Passos para Configuração
-
-1. Acesse o [Spring Initializer](https://start.spring.io/) e configure o projeto com as seguintes opções:
-   - Linguagem: Java
-   - Ferramenta de gerenciamento de projetos: Maven
-   - Versão do Spring Boot: Escolha a versão mais recente
-   - Nome do projeto: `LiterAlura`
-   - Dependências: `Spring Data JPA` e `PostgreSQL Driver`
-   
-2. Baixe o projeto gerado pelo Spring Initializer e importe-o para sua IDE, como IntelliJ.
-
-3. Crie um banco de dados PostgreSQL chamado `liter_alura`.
-
-4. Configure o arquivo `application.properties` (ou `application.yml`) do projeto com as propriedades de conexão do banco de dados:
-   - URL do datasource: `jdbc:postgresql://localhost:5432/liter_alura`
-   - Nome de usuário e senha do banco de dados.
-   - Configuração do Hibernate para atualização automática do esquema.
-
-## Modelagem do Banco de Dados
-
-O projeto utiliza duas entidades principais: `Livro` e `Autor`, cada uma com seus respectivos repositórios para operações de CRUD e consultas específicas.
-
-## Consumo da API Gutendex
-
-Um serviço é responsável por consumir a API Gutendex para buscar informações de livros com base no título fornecido pelo usuário.
-
 ## Executando o Projeto
 
 ### Passos para Executar
